@@ -4,6 +4,8 @@ This text classification task required classifying biased text data into 17 cate
 
 Features were extracted using multiple methods like tf-idfvectorizer and doc2vec.
 
+Evaluation metric used is the F1-Macro score.
+
 **baseline.py** shows the basline model implementation using Logistic Regression.  
 **scripts** contains code for the four attempts:  
 * **RandomForest.py** : uses tfidf-vectorizer coupled with Random Forest classifier.
